@@ -79,7 +79,7 @@ Sleep-Risk-Analyzer/
 ## How to Run Locally
 
 1. Clone the repository
-git clone <your-repo-link>
+git clone https://github.com/vishishta2805/SleepRisk-Analyser.git
 cd Sleep-Risk-Analyzer
 
 2. Create virtual environment
