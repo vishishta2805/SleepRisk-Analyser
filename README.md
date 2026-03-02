@@ -82,7 +82,7 @@ Sleep-Risk-Analyzer/
 
 1. Clone the repository
 git clone https://github.com/vishishta2805/SleepRisk-Analyser.git
-cd Sleep-Risk-Analyzer
+- cd Sleep-Risk-Analyzer
 
 2. Create virtual environment
 python -m venv venv
