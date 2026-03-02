@@ -81,15 +81,15 @@ Sleep-Risk-Analyzer/
 ## How to Run Locally
 
 1. Clone the repository
-git clone https://github.com/vishishta2805/SleepRisk-Analyser.git
+- git clone https://github.com/vishishta2805/SleepRisk-Analyser.git
 - cd Sleep-Risk-Analyzer
 
 2. Create virtual environment
-python -m venv venv
-source venv/bin/activate # Mac/Linux
+- python -m venv venv
+- source venv/bin/activate # Mac/Linux
 
 3. Install dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 4. Run the application
-streamlit run app.py
+- streamlit run app.py
