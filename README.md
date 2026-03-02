@@ -59,6 +59,8 @@ The goal is to build an interpretable predictive system and deploy it through an
 ---
 
 ## Project Structure
+
+```
 Sleep-Risk-Analyzer/
 │
 ├── app.py
@@ -66,16 +68,16 @@ Sleep-Risk-Analyzer/
 ├── requirements.txt
 │
 ├── src/
-│ ├── train.py
-│ ├── evaluate.py
-│ └── preprocessing.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── preprocessing.py
 │
 ├── notebooks/
-│ └── eda.ipynb
+│   └── eda.ipynb
 │
 ├── models/
-│ └── pipeline.pkl
-
+│   └── pipeline.pkl
+```
 ## How to Run Locally
 
 1. Clone the repository
