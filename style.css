@@ -1,0 +1,99 @@
+/* ===== Global Background (Deep Slate) ===== */
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+/* ===== Main Container ===== */
+.block-container {
+    background-color: rgba(30, 41, 59, 0.88);
+    padding: 3rem;
+    border-radius: 24px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.35);
+}
+
+/* ===== Headings ===== */
+h1, h2, h3 {
+    color: #f1f5f9;
+    font-weight: 600;
+}
+
+/* ===== Metric Cards ===== */
+div.stMetric {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.25);
+    color: #e2e8f0;
+}
+
+/* ===== Buttons ===== */
+button[kind="primary"] {
+    background-color: #14b8a6 !important;
+    border-radius: 14px !important;
+    height: 3em !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    transition: 0.3s ease;
+}
+
+button[kind="primary"]:hover {
+    background-color: #0d9488 !important;
+}
+
+/* ===== Input Fields ===== */
+.stTextInput input,
+.stNumberInput input,
+.stSelectbox div[data-baseweb="select"] {
+    background-color: #334155 !important;
+    border-radius: 12px !important;
+    color: #f8fafc !important;
+    border: 1px solid #475569 !important;
+}
+
+/* ===== REMOVE SELECTBOX BLUE HIGHLIGHT ===== */
+div[data-baseweb="select"] > div {
+    background-color: #334155 !important;
+    box-shadow: none !important;
+}
+
+div[data-baseweb="select"]:focus,
+div[data-baseweb="select"] *:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* ===== Dropdown Menu Styling ===== */
+ul[role="listbox"] {
+    background-color: #1e293b !important;
+    border-radius: 12px !important;
+}
+
+li[role="option"] {
+    background-color: #1e293b !important;
+    color: #f1f5f9 !important;
+}
+
+li[role="option"]:hover {
+    background-color: #14b8a6 !important;
+    color: white !important;
+}
+
+/* ===== Sliders ===== */
+[data-baseweb="slider"] div {
+    color: #14b8a6 !important;
+}
+
+/* ===== Progress Bar ===== */
+.stProgress > div > div {
+    background-color: #14b8a6 !important;
+}
+
+/* ===== Sidebar ===== */
+section[data-testid="stSidebar"] {
+    background-color: #0f172a;
+}
+
+/* ===== Charts ===== */
+canvas {
+    border-radius: 18px;
+}
